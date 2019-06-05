@@ -1,4 +1,8 @@
-p.header{
+h1.navtitle{
+	padding-left: 150px;
+}
+
+.header{
 	height: 500px;
 	width: 100%;
 	background-image:url("./img/top.jpg");
@@ -7,21 +11,26 @@ p.header{
 	background-position: center center;
 }
 
-h1.navtitle{
-	padding-left: 150px;
-}
+
 
 .background{
 	background-color: #663300;
 	
 	
 }
-.white_text{
+.title{
 	padding-left: 150px;
 	padding-right: 150px;
+	color: white;
+}
+.footer_text{
+	padding-left:150px;
+	padding-right:150px;
+	padding-top: 50px;
 	color: white;
 }
 
 #sticky-footer {
   flex-shrink: none;
+  height: 250px;
 }
