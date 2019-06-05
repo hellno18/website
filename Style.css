@@ -1,0 +1,27 @@
+p.header{
+	height: 500px;
+	width: 100%;
+	background-image:url("./img/top.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+h1.navtitle{
+	padding-left: 150px;
+}
+
+.background{
+	background-color: #663300;
+	
+	
+}
+.white_text{
+	padding-left: 150px;
+	padding-right: 150px;
+	color: white;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
