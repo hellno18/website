@@ -4,11 +4,11 @@ h1.navtitle{
 
 .header{
 	height: 500px;
-	width: 100%;
+	min-height: 500px;
 	background-image:url("./img/top.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center;
 }
 
 
