@@ -6,7 +6,7 @@ h1.navtitle{
 	height: 500px;
 	background-image:url("./img/top.jpg");
 	background-repeat: no-repeat;
-	background-size: 1400px 500px;
+	background-size: cover;
 	background-position: center;
 	margin-bottom:10px;
 }
