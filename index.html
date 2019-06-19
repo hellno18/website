@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+  	<!-- redirect html to https -->
+  	<script>
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+    		window.location.href = loc.replace('http://','https://');
+		}
+	</script>
+
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="Style.css">
     <!-- Required meta tags -->
@@ -85,13 +93,13 @@
 					</p>
 
 					<h4 class="point">イベントパート</h4>
-					
+
 					<p class="dialog">イベントパートでもレイヤー構造は変わりません。通常パートより層はシンプルになり、</p>
 					<ul class="dialog">
 						<li>1枚絵</li> 
 						<li>テキスト</li> 
 					</ul>
-					
+
 					<p class="dialog">の2つの要素から成立します。「一枚絵」はそのシーンだけに使われる書き下ろしで、画面一杯のサイズで描かれています。イベントパートでは「立ち絵」や「背景」という使い回される素材を使用しないので、特別なシーンという印象をユーザーに与えます。<p>
 					<!-- image 2 -->
 					<img src="./img/cat3.jpg" alt="cat_sleep" class="img-fluid" width="1200px">
