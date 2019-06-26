@@ -115,3 +115,19 @@
 #footer{
 	background-color: #663300;
 }
+
+
+@media (max-width: 575.98px) { 
+	.picture_dialog{
+	padding-left: 0px;
+	padding-right: 0px; 
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.picture_dialog{
+	padding-left: 0px;
+	padding-right: 0px; 
+	}
+}
+
