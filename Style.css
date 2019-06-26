@@ -71,10 +71,40 @@
 	padding:20px 0px 0px 0px;
 }
 
-
-
 .dialog{
 	padding:20px 40px 0px 40px;
+}
+
+
+.image_show a{
+	position: relative;
+}
+.image_show span{
+	position: absolute;
+	display: none;
+	z-index: 99;
+}
+
+.image_show a:hover span{
+	display: block;
+}
+
+.picture_dialog{
+	padding-left: 40px;
+	padding-right: 30px; 
+}
+
+.picture{
+	margin:10px auto 20px;
+	display: block;
+}
+
+.picture:hover{
+	position: relative;
+	width: 300px;
+	height: auto;
+	display: block;
+	z-index: 999;
 }
 
 .footer_text{
