@@ -10,7 +10,7 @@
 	</script>
 
     <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,130 +18,118 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
-    <!-- ico -->
-    <link rel="icon" href="img/doge.ico" type="image/ico">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
 
-    <title>HogeHoge</title>
+    <!-- ico -->
+    
+
+    <title></title>
   </head>
   <body>
-    <!--class navbar -->
-    <nav class="navbar navbar-expand-xl navbar-light bg-light " >
-      <a class="navbar-brand" href="index.php">
-         <h1>HogeHoge</h1>
-      </a>
-      <!-- navbar Icon tonggle -->
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    		<span class="navbar-toggler-icon"></span>
-  		</button>
-
-  		<!-- collapse navbar -->
-  		<div class="collapse navbar-collapse " id="navbarNav">
-		    <ul class="navbar-nav ">
-		      <li class="nav-item  active ">
-		        <a class="nav-link" href="kitty.php">Kitty子猫<span class="sr-only">(current)</span></a>
-		      </li>
-		    </ul>
-		  </div>
-    </nav>
-
-   <!-- class header background -->
-    <header>
-			<div class="d-none d-xl-block header-xl"></div>
-			<div class="d-none d-lg-block d-xl-none header-lg"></div>
-			<div class="d-none d-md-block d-lg-none header-md"></div>
-			<div class="d-none d-sm-block d-md-none header-sm"></div>
-			<div class="d-block d-sm-none header-xs"></div>
-    </header>
-    <main>
-        <article>
-        	<!-- title 1 -->
-			<h2 class="title">ノベルゲームについて</h2>
+  	<!-- NavBar -->
+  	<header id="home">
+  		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
 			<div class="container">
-				<!-- sub-title 1 -->
-				<section>
-					<h3 class="sub-title heading1">ノベルゲームとはなにか</h3>
-					<p class="dialog">ノベルゲームは広義には「文章とサウンドとグラフィックが合わさった作品」であり、かなり広い範囲ものをノベルゲームに当てはめることはできます。なお、挿入される画像は練習のために配置された何の関係もない猫です。ですが、ノベルゲームには一定の層に認知された特定の様式があり、作り手も受け手もその様式を意識しています。ノベルゲームの現状を語る上では、この「狭義のノベルゲーム」をみていくべきでしょう。</p>
-				</section>
-				
-				<!--sub-title 2  -->
-				<section>
-					<h3 class="sub-title heading1">ノベルゲームの構成</h3>
-				
-					<h4 class="point">通常パートとイベントパート</h4>
-
-					<p class="dialog">まず、ノベルゲームで物語がどのように進行するか、画面構成を軸に説明していきます。一般的なノベルゲームは、基本的には「通常パート」と「イベントパート」に分かれて進行します。なお、挿入される画像は練習のために配置された何の関係もない猫です。</p>
-
-					<img src="./img/cat1.jpg" alt="cat_with_smartphone" class="img-fluid" width="1200px">
-					
-					<p class="dialog">両者のどちらにもつかないような場面も存在することはありますが、この区別は画面構成に依拠しているところが強く、ある程度明瞭に分けることができます。</p>
-
-					<p class="dialog">そしてこの画面構成が、「狭義のノベルゲーム」の様式の重要な要件でもあります。順にみていきましょう。</p>
-
-					<h4 class="point">通常パート</h4>
-
-					<p class="dialog">通常パートの画面は、主として以下の要素によるレイヤー構造を持ちます。なお、挿入される画像は練習のために配置された何の関係もない猫です。</p>
-
-					<ul class="dialog">
-						<li>背景</li> 
-						<li>立ち絵</li> 
-						<li>テキスト</li> 
-					</ul>
-					<!-- image 1 -->
-					<img src="./img/cat2.jpg" alt="cat_sleep" class="img-fluid" width="1200px">
-					
-					<p class="dialog">「背景」はどの場所にいるかを、「立ち絵」はその場所で誰がどんな表情をしているかを視覚的に表すことができます。それらの補助を得ながら「テキスト」の記述で物語が進行します。通常パートは、「立ち絵」や「背景」を一定数用意しておけばそれらの組み合わせで多くの状況に対応できます。この特性は開発コストを抑えるという点において非常に優れています。
-					</p>
-
-					<h4 class="point">イベントパート</h4>
-
-					<p class="dialog">イベントパートでもレイヤー構造は変わりません。通常パートより層はシンプルになり、</p>
-					<ul class="dialog">
-						<li>1枚絵</li> 
-						<li>テキスト</li> 
-					</ul>
-
-					<p class="dialog">の2つの要素から成立します。「一枚絵」はそのシーンだけに使われる書き下ろしで、画面一杯のサイズで描かれています。イベントパートでは「立ち絵」や「背景」という使い回される素材を使用しないので、特別なシーンという印象をユーザーに与えます。<p>
-					<!-- image 2 -->
-					<img src="./img/cat3.jpg" alt="cat_sleep" class="img-fluid" width="1200px">
-					
-					<p class="dialog">なお、挿入される画像は練習のために配置された何の関係もない猫です。</p>
-
-				</section>
-				
-				<!--sub-title 3  -->
-			   	<section>
-					<h3 class="sub-title heading1">ノベルゲームの利用</h3>
-					<p class="dialog">ノベルゲームを主軸にしたゲーム作品は数多く世に出されているほか、ノベルゲームシステムを用いて、キャラの会話やストーリーテリングを行うケースは数多く存在しています。</p>
-				</section>
+			  <a class="navbar-brand" href="#"> <img src="img/logo.png" width="30" height="30"></a>
+			 
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse justify-content-round" id="navbarNav">
+			    <ul class="navbar-nav ml-lg-auto">
+			      <li class="nav-item">
+			        <a class="nav-link ml-3" href="#home">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link ml-3" href="#about">About</a>
+			      </li>
+			       <li class="nav-item">
+			        <a class="nav-link ml-3" href="#">Skill</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link ml-3" href="#">Portfolio</a>
+			      </li>
+			    </ul>
+			  </div>
 			</div>
-			
-        </article>
-    </main>
-   
-    <!-- Footer Class -->
+		</nav>
+  	</header>
 	
-	<footer id="footer">
+	<!-- Class jumbotron -->
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+	  	<section>
+	    <h4 class="display-5">MICHAEL JACK</h4>
+	    <hr class="style-seven"/>
+	    <p class="lead">Game Programmer | Server Engineer</p>
+	    
+	    </section>
+	    <div class="box-container">
+		    <div class="row">
+			    
+			    <a class="box" href="https://github.com/hellno18" target="_blank">
+			    	<div class="icon"><i class="fab fa-github-square"> GitHub</i></div>	
+			    </a>
+			    
+			    <a class="box" href="https://www.linkedin.com/in/michael-jack" target="_blank">
+					<div class="icon"><i class="fab fa-linkedin"> Linkedin</i></div>
+			    </a>
 
-		<div class="container footer_text">
-			<!-- footer section -->
-			<section>
-				<h2>ご注意</h2>
-				<br>
-				<p>文章は講師である鈴木が作成したものです。</p>
-
-				<p>このテンプレートで使用している写真は、ぱくたそ(www.pakutaso.com）の写真素材を利用しています。二次配布物の受領者がこの写真を継続して利用する場合は、ぱくたそ公式サイトからご自身でダウンロードしていただくか、ぱくたそのご利用規約<br>
-				(www.pakutaso.com/userpolicy.html）に同意していただく必要があります。
-	同意いただけない場合は写真素材のご利用はできませんのでご注意ください。 </p>
-			</section>
+			    <a class="box" href="https://twitter.com/michaeljack17" target="_blank">
+					<div class="icon"><i class="fab fa-twitter"> Twitter</i></div>
+			    </a>
+			</div>
 		</div>
-	  
-	</footer>
+		<section>
+		<hr class="style-seven-after"/>
+		</section>
+	  </div>
+	</div>
+
+	<!-- About Section -->
+	<section class="about" id="about">
+		<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-center">About</h2>
+						<hr></hr>
+					</div>
+				</div>
+				<!-- 自己PR -->
+				<p align="justify">After graduated from University, I entered  IT Corporation in Indonesia. My roles was responsible for troubleshooting and resolving technical issues, and also maintenance server. I’ve been at my company for two years now and have learned a lot from that company. However, i’m starting to feel like i need some new challenges. So, i chose study abroad program in Japan. Now, I’m studying game development and creating many projects from different background.</p>
+						
+			</div>
+	</section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	//parallax
+		$(window).scroll(function(){
+			var wScroll= $(this).scrollTop();
+			
+			$('.section hr').css({
+				'transform' :'translate(0px,'+ wScroll/3 +'%)'
+			});
+						
+			$('.jumbotron h4').css({
+				'transform' :'translate(0px,'+ wScroll/2 +'%)'
+			});
+			
+			$('.jumbotron p').css({
+				'transform' :'translate(0px,'+ wScroll/4 +'%)'
+			});
+			//about
+			if(wScroll >$('.about').offset().top-350){
+				$('.about .software-skill').addClass('show');
+				$('.about .twinsleft').addClass('show');
+			}
+	
+		});
+    </script>
   </body>
 </html>

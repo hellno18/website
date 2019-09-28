@@ -1,5 +1,0 @@
-<?php
-
-	include'kitty.html';
-
-?>
