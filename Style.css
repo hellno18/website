@@ -1,3 +1,4 @@
+/*Header*/
 .navbar{
 	padding: 20px 0;
 }
@@ -107,15 +108,108 @@ hr.style-seven-after { /* Not really supposed to work, but does */
   -o-transition: all 0.30s ease-in-out;
 }
 
-a, a:visited {
+.box, .box:visited{
   text-decoration: none;
   color: white;
   outline: none;
 }
 
-a:hover .icon{
+.box:hover .icon{
 	color: #333;
 }
+
+/*portfolio section*/
+a, a:visited{
+  text-decoration: none;
+  color: #555;
+  outline: none;
+}
+
+.col-md-4{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.col-md-4 a:hover {
+  text-decoration: none;
+  color: #888;
+  outline: none;
+}
+
+a:active, a:focus {
+  text-decoration: none;
+  color: #aaa;
+  outline: none;
+}
+
+.teall-bg {
+  color: #eee;
+  background-color: #333;
+}
+
+.project-thumb {
+  width: 70%;
+  height:70%;
+  border: 1px solid #ccc;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.project-thumb:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+#portfolio{
+	margin: 50px 100px; 
+}
+
+.transition{
+	transition: all 0.25s ease-out;
+  	-webkit-transition: all 0.25s ease-out;
+  	-moz-transition: all 0.25s ease-out;
+}
+
+/*-- Custom Modal Settings --*/
+.modal-header .modal-title{
+	text-align: center;
+}
+
+.modal-content {
+  border-radius: 1;
+}
+
+.modal-dialog {
+  /* width: 80%; */
+  margin: 0 auto; /* Eliminate top margin on bootstrap modal */
+}
+
+.modal-thumb img {
+  width: 66%;
+  padding-top: 20px;
+}
+
+.modal-body {
+  padding: 20px 0;
+  text-align: justify-all;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.close {
+  font-size: 40px;
+  font-weight: 200;
+}
+/* END custom modal settings --*/
+
+/*About*/
+#about{
+	margin: 50px 100px; 
+}
+
+
 
 /*3D Hover*/
 /* 
