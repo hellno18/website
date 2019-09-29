@@ -235,6 +235,23 @@ a:active, a:focus {
 	opacity: 0.5;
 }
 
+
+/*-- iPhone 6+ --*/
+@media(max-width: 736px) {
+  /* Expand feature image size */
+	.project-thumb {
+	  width: 70%;
+	  height:70%;
+	  border: 1px solid #ccc;
+	  -webkit-filter: grayscale(0%);
+  	  -moz-filter: grayscale(0%);
+  	  filter: grayscale(0%);
+	}
+	#about{
+	margin: auto; 
+}
+}
+
 /*3D Hover*/
 /* 
 .service-content{
