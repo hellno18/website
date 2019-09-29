@@ -32,6 +32,15 @@ $('.page-scroll').click(function() {
   return false;
 });
 
+
+//mail
+$(document).ready(function(){
+    $('.mail').on('click',function(){
+       window.location.href = "mailto:michaeljack255@gmail.com"; 
+    });
+});
+
+
 //Javascript load dialog modal
 function loadModal(title, thumb, body, launchLink) {
   // Reference modal elements

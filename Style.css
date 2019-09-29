@@ -1,4 +1,4 @@
-/*Header*/
+Header*/
 .navbar{
 	padding: 20px 0;
 }
@@ -142,7 +142,7 @@ a:active, a:focus {
   outline: none;
 }
 
-.teall-bg {
+.bg {
   color: #eee;
   background-color: #333;
 }
@@ -209,7 +209,31 @@ a:active, a:focus {
 	margin: 50px 100px; 
 }
 
+#skill{
+	margin: 50px 100px;
+	text-align: center;
+}
 
+/*skill thumb*/
+.skills-thumb{
+	padding: 20px;
+  	font-size: 30px;
+  	width: 100px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px auto;
+  
+}
+
+#contact{
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+.mail:hover {
+	opacity: 0.5;
+}
 
 /*3D Hover*/
 /* 
@@ -251,4 +275,3 @@ a:active, a:focus {
             -o-transform: rotateX(0);
             transform: rotateX(0);
 }
-*/
