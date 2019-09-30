@@ -236,6 +236,25 @@ a:active, a:focus {
 }
 
 
+/*scroll-top*/
+.scroll-top .fa-chevron-up{
+	 background: #444444;
+	 border-radius: 25px;
+	 bottom: 30px;
+	 color: #ffffff;
+	 cursor: pointer;
+	 height: 50px;
+	 position: fixed;
+	 right: 20px;
+	 width: 50px;
+	 z-index: 9999;
+	 text-align: center;
+	 padding-top: 20px;
+}
+.scroll-top .fa-chevron-up:hover{
+	background: #888;
+}
+
 /*-- iPhone 6+ --*/
 @media(max-width: 736px) {
   /* Expand feature image size */

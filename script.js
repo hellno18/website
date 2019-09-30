@@ -41,6 +41,22 @@ $(document).ready(function(){
 });
 
 
+// button to go to top
+$(document).ready(function(){
+  $('.scroll-top').hide();
+  $(window).scroll(function(){
+    if($(this).scrollTop()>200){
+      $('.scroll-top').fadeIn();
+    }else{
+      $('.scroll-top').fadeOut();
+    }
+  });
+  $('.scroll-top').click(function(){
+    $('html,body').animate({scrollTop:0},1000)
+  })
+
+});
+
 //Javascript load dialog modal
 function loadModal(title, thumb, body, launchLink) {
   // Reference modal elements
