@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   	<!-- redirect html to https -->
-  	<!-- <script>
+  	 <script>
 		var loc = window.location.href+'';
 		if (loc.indexOf('http://')==0){
     		window.location.href = loc.replace('http://','https://');
 		}
-	</script> -->
+	</script>
 
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,6 +24,7 @@
     <!-- ico -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico"/>
 
+
     <title>Michael Jack</title>
   </head>
   <body>
@@ -31,7 +32,7 @@
   	<header id="home">
   		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
 			<div class="container">
-			  <a class="navbar-brand" href="https://www.michaeljack.tk"> <img src="img/logo.png" width="30" height="30"></a>
+			  <a class="navbar-brand" href="https://michael-jacks.com"> <img src="img/logo.png" width="30" height="30"></a>
 			 
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -39,19 +40,31 @@
 			  <div class="collapse navbar-collapse justify-content-round" id="navbarNav">
 			    <ul class="navbar-nav ml-lg-auto">
 			      <li class="nav-item">
-			        <a class="nav-link ml-3 page-scroll" href="#home">Home</a>
+			        <a class="nav-link ml-3 page-scroll tr" key="home" href="#home">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link ml-3 page-scroll" href="#about">About</a>
+			        <a class="nav-link ml-3 page-scroll tr" key="about" href="#about">About</a>
 			      </li>
 			       <li class="nav-item">
-			        <a class="nav-link ml-3 page-scroll" href="#skill">Skill</a>
+			        <a class="nav-link ml-3 page-scroll tr" key="skills" href="#skill">Skill</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link ml-3 page-scroll" href="#portfolio">Portfolio</a>
+			        <a class="nav-link ml-3 page-scroll tr" key="portfolio" href="#portfolio">Portfolio</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link ml-3 page-scroll" href="#contact">Contact</a>
+			        <a class="nav-link ml-3 page-scroll tr" key="contact" href="#contact">Contact</a>
+			      </li>
+			      <!-- JP -->
+			      <li class="nav-item">
+			        <a class="nav-link ml-3 page-scroll lang tr" key="japanese" id="jp" href="#">
+			        	<img class="logo" src="img/japan.png">
+			    	</a>
+			      </li>
+			      <!-- EN -->
+			      <li class="nav-item">
+			        <a class="nav-link ml-3 page-scroll lang tr" key="english" id="en" href="#">
+			        	<img class="logo" src="img/english.png">
+			        </a>
 			      </li>
 			    </ul>
 			  </div>
@@ -63,9 +76,9 @@
 	<div class="jumbotron jumbotron-fluid">
 	  <div class="container">
 	  	<section>
-	    <h4 class="display-5">MICHAEL JACK</h4>
+	    <h4 class="display-5 tr" key="myname">MICHAEL JACK</h4>
 	    <hr class="style-seven"/>
-	    <p class="lead">Game Programmer | Server Engineer</p>
+	    <p class="lead tr" key="job">Game Programmer | Server Engineer</p>
 	    
 	    </section>
 	    <div class="box-container">
@@ -257,5 +270,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="script.js" type="text/javascript"></script>
+        <!-- translate into japanese javascript -->
+	<script src="translate.js"></script>
   </body>
 </html>
