@@ -43,16 +43,20 @@ $(document).ready(function(){
 
 // button to go to top
 $(document).ready(function(){
+  //Hide First
   $('.scroll-top').hide();
+  
   $(window).scroll(function(){
-    if($(this).scrollTop()>200){
+    if($(this).scrollTop()>200){ 
+
       $('.scroll-top').fadeIn();
+      $('.fa-chevron-up').animate({bottom:'50px'},400);
     }else{
       $('.scroll-top').fadeOut();
     }
-  });
+    });
   $('.scroll-top').click(function(){
-    $('html,body').animate({scrollTop:0},1000)
+    $('html,body').animate({scrollTop:0},1000);
   })
 
 });
@@ -67,7 +71,7 @@ function loadModal(title, thumb, body, launchLink) {
 
   // Dynamically fill content of modal with function call
   modalTitle.innerHTML = title;
-  modalThumb.src = "img/portfolio-screen-shots/" + thumb;
+  modalThumb.src = "img/" + thumb;
   modalBody.innerHTML = body;
   modalFooterLink.setAttribute("href", launchLink);
 }
