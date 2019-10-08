@@ -6,20 +6,23 @@ aLangKeys['jp']=new Array();
 aLangKeys['en']['home']='HOME';
 aLangKeys['en']['about']='ABOUT';
 aLangKeys['en']['portfolio']='PORTFOLIO';
-aLangKeys['en']['skills']='SKILL';
+aLangKeys['en']['skills']='SKILLS';
 aLangKeys['en']['contact']='CONTACT';
-aLangKeys['en']['contactme']='Contact Me';
+aLangKeys['en']['contactme']='CONTACT ME';
 aLangKeys['en']['telp']='Telp:(080)-8743-0802';
-aLangKeys['en']['email']='Email: michaeljack255@gmail.com';
-aLangKeys['en']['school']='Tokyo Cool Japan College';
 aLangKeys['en']['myname']='MICHAEL JACK';
 aLangKeys['en']['job']='Game Programmer | Server Engineer';
 aLangKeys['en']['introduction']='After graduated from University, I entered  IT Corporation in Indonesia. My roles was responsible for troubleshooting and resolving technical issues, and also maintenance server. I’ve been at my company for two years now and have learned a lot from that company. However, i’m starting to feel like i need some new challenges. So, i chose study abroad program in Japan. Now, I’m studying game development and creating many projects from different background.';
-aLangKeys['en']['skill']='My Skill';
-aLangKeys['en']['fullname']='Full Name';
-aLangKeys['en']['mail']='Email';
-aLangKeys['en']['message']='Message';
-aLangKeys['en']['submit']='Submit';
+
+aLangKeys['en']['furpunktitle']='Furpunk Blast';
+aLangKeys['en']['fruitmatchtitle']='Fruit Match';
+aLangKeys['en']['zombiehuntertitle']='Zombie Hunter';
+aLangKeys['en']['pinatatatitle']='Pinatata';
+aLangKeys['en']['chimetitle']='The Chime';
+aLangKeys['en']['websitetitle']='Website';
+
+
+
 aLangKeys['en']['furpunk']='This group project was created by Unreal Engine. My roles is create a player to movement or shoot and also make a camera smooth between multiplayer. Repository manager used Git. Genre Game is Co-op Multiplayer shooting game. It will be released on February 2019.';
 aLangKeys['en']['wizardrun']='The second version of my first 2D game by Unity Engine(Unity 2018.3.0f1), this game have nearly finished, however you can play the game as well. This game like endless running and get a high score.';
 aLangKeys['en']['fps']='This game is the tutorial first person shooter. Use your skill or tactics and sharp shooter aim to defeat all of your enemies on the battlefield. This game feature is kill enemies and gain score points.This game made with Unity and released on PC only.';
@@ -41,17 +44,17 @@ aLangKeys['jp']['portfolio']='ポートフォリオ';
 aLangKeys['jp']['skills']='技術的';
 aLangKeys['jp']['contact']='連絡';
 aLangKeys['jp']['contactme']='連絡先';
-aLangKeys['jp']['telp']='携帯:(080)-8743-0802';
-aLangKeys['jp']['email']='メール: michaeljack255@gmail.com';
-aLangKeys['jp']['school']='専門学校東京クールジャパン';
 aLangKeys['jp']['myname']='マイケル　ジャック';
 aLangKeys['jp']['job']='ゲーム　プログラマー | サーバー　エンジニア';
 aLangKeys['jp']['introduction']='大学卒業後、インドネシアでIT系の会社を働めました。 仕事の内容はサーバを管理するや技術的問題を解決です。 会社に2年勤めていたので、色々な経験をしました。でも、まだチャレンジしたいと思います。そして、日本への留学を決意しました。 今は東京ネットウェイブのゲームプログラマー専攻で勉強しています。そして様々なゲームを作りました。';
-aLangKeys['jp']['skill']='スキル';
-aLangKeys['jp']['fullname']='お名前';
-aLangKeys['jp']['mail']='メールアドレス';
-aLangKeys['jp']['message']='お問い合わせ内容';
-aLangKeys['jp']['submit']='送信';
+
+aLangKeys['jp']['furpunktitle']='ファーパンクブラスト';
+aLangKeys['jp']['fruitmatchtitle']='フルーツマッチ';
+aLangKeys['jp']['zombiehuntertitle']='ゾンビハンター';
+aLangKeys['jp']['pinatatatitle']='ぴにゃたた';
+aLangKeys['jp']['chimetitle']='ザ　チャイム';
+aLangKeys['jp']['websitetitle']='WEB サイト';
+
 aLangKeys['jp']['furpunk']='このチーム制作は「Unreal Engine」によって作成されました。 私の役は、動きや撃つプレーヤーを作ることやそしてマルチプレイヤの間でカメラを滑らかにすることです。「GIT」ギットを使用しました。 ジャンルゲームはマルチプレイヤーシューティングゲームです。 2019年2月にリリースされます。';
 aLangKeys['jp']['wizardrun']='「Unity Engine」によると最初の2Dゲームの第2版（Unity 2018.3.0f1）、このゲームはほぼ終了しましたが、このゲームをプレイすることができます。 このゲームはラン＆ジャンプゲームのようにアイデアを考えたが、ハイスコアを得ます。';
 aLangKeys['jp']['fps']='このゲームはチュートリアルのシューティングゲームです。 スキルや戦術を使い、鋭い射手を使って戦場であなたのすべての敵を倒してください。 このゲームの特徴は敵を殺して得点を稼ぐことです。このゲームはUnityで作られ、PCでのみリリースされています。';
